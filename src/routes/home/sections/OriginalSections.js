@@ -59,6 +59,7 @@ function OriginalSections({ sections, database, emuSections }) {
                 {renderCategory(database, emuSections.categories[index].category_name, 6).map((item) => {
                   return <li>{item}</li>;
                 })}
+
               </ul>
             </div>
           </section>
